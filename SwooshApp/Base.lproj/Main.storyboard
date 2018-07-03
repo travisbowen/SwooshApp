@@ -164,7 +164,7 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TCs-65-S7M" customClass="BorderButton" customModule="SwooshApp" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TCs-65-S7M" customClass="BorderButton" customModule="SwooshApp" customModuleProvider="target">
                                 <rect key="frame" x="20" y="597" width="335" height="50"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.40199593319999999" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -210,6 +210,7 @@
                         <viewLayoutGuide key="safeArea" id="wMQ-Q5-WJp"/>
                     </view>
                     <connections>
+                        <outlet property="nextButton" destination="TCs-65-S7M" id="AFH-vP-ypA"/>
                         <segue destination="2bm-tK-ehc" kind="show" identifier="skillVCSegue" id="ume-1j-NUd"/>
                     </connections>
                 </viewController>
