@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FD577B520EB3EEF00B575A2 /* LeagueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD577B420EB3EEF00B575A2 /* LeagueVC.swift */; };
+		1FD577B720EB3F0800B575A2 /* SkillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD577B620EB3F0800B575A2 /* SkillVC.swift */; };
 		CD4B606B20EA83E600C96C1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4B606A20EA83E600C96C1B /* AppDelegate.swift */; };
-		CD4B606D20EA83E600C96C1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4B606C20EA83E600C96C1B /* ViewController.swift */; };
+		CD4B606D20EA83E600C96C1B /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4B606C20EA83E600C96C1B /* WelcomeVC.swift */; };
 		CD4B607020EA83E600C96C1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4B606E20EA83E600C96C1B /* Main.storyboard */; };
 		CD4B607220EA83E700C96C1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD4B607120EA83E700C96C1B /* Assets.xcassets */; };
 		CD4B607520EA83E700C96C1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4B607320EA83E700C96C1B /* LaunchScreen.storyboard */; };
@@ -16,9 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1FD577B420EB3EEF00B575A2 /* LeagueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueVC.swift; sourceTree = "<group>"; };
+		1FD577B620EB3F0800B575A2 /* SkillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillVC.swift; sourceTree = "<group>"; };
 		CD4B606720EA83E600C96C1B /* SwooshApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwooshApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD4B606A20EA83E600C96C1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CD4B606C20EA83E600C96C1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD4B606C20EA83E600C96C1B /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
 		CD4B606F20EA83E600C96C1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD4B607120EA83E700C96C1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD4B607420EA83E700C96C1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -86,7 +90,9 @@
 		CD4B608020EA8A7A00C96C1B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				CD4B606C20EA83E600C96C1B /* ViewController.swift */,
+				CD4B606C20EA83E600C96C1B /* WelcomeVC.swift */,
+				1FD577B420EB3EEF00B575A2 /* LeagueVC.swift */,
+				1FD577B620EB3F0800B575A2 /* SkillVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -162,8 +168,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD4B606D20EA83E600C96C1B /* ViewController.swift in Sources */,
+				CD4B606D20EA83E600C96C1B /* WelcomeVC.swift in Sources */,
+				1FD577B520EB3EEF00B575A2 /* LeagueVC.swift in Sources */,
 				CD4B606B20EA83E600C96C1B /* AppDelegate.swift in Sources */,
+				1FD577B720EB3F0800B575A2 /* SkillVC.swift in Sources */,
 				CD4B607D20EA89F200C96C1B /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,7 +317,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 473SHKFLJ4;
 				INFOPLIST_FILE = SwooshApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -328,7 +336,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 473SHKFLJ4;
 				INFOPLIST_FILE = SwooshApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
