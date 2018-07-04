@@ -277,7 +277,7 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bUE-07-OY2" customClass="BorderButton" customModule="SwooshApp" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bUE-07-OY2" customClass="BorderButton" customModule="SwooshApp" customModuleProvider="target">
                                 <rect key="frame" x="20" y="597" width="335" height="50"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.40199593319999999" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -322,6 +322,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="wJw-UZ-Gdl"/>
                     </view>
+                    <connections>
+                        <outlet property="finishButton" destination="bUE-07-OY2" id="CTW-by-oIq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v3Q-0k-taX" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="QIU-VT-trw" userLabel="Exit" sceneMemberID="exit"/>

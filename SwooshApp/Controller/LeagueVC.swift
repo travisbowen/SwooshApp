@@ -16,6 +16,8 @@ class LeagueVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        nextButton.isHidden = true
+        
         //Instaniate new player
         player = Player()
     }
@@ -43,7 +45,8 @@ class LeagueVC: UIViewController {
     func selectLeague(league: String){
         player.selectedLeague = league
         
-        //Enable next button
+        //Enable and show next button
+        nextButton.isHidden = false
         nextButton.isEnabled = true
     }
     
